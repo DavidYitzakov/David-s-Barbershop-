@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Barbershop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to David's Barbershop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Haircut</h3>
+                <p>Professional haircuts tailored to your style.</p>
+                <p>$20</p>
+            </div>
+            <div class="service">
+                <h3>Beard Trim</h3>
+                <p>Keep your beard sharp and clean.</p>
+                <p>$15</p>
+            </div>
+            <div class="service">
+                <h3>Shave</h3>
+                <p>Traditional straight razor shave.</p>
+                <p>$25</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="service">Choose a Service:</label>
+            <select id="service" name="service" required>
+                <option value="haircut">Haircut</option>
+                <option value="beard-trim">Beard Trim</option>
+                <option value="shave">Shave</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-container">
+            <blockquote>
+                <p>"Best haircut I've ever had!"</p>
+                <cite>- John Doe</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Amazing service and friendly staff."</p>
+                <cite>- Jane Smith</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@davidsbarbershop.com</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Main Street, Anytown, USA</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 David's Barbershop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
